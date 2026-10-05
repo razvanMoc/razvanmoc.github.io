@@ -203,21 +203,12 @@ nav a:hover {
     justify-content: center;
 }
 
-.photo-placeholder {
+.hero-photo img {
     width: 270px;
     height: 270px;
-
+    object-fit: cover;
     border-radius: 50%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: #e9ebee;
-    color: #7b838c;
-
-    font-size: 4rem;
-    font-weight: 300;
+    display: block;
 }
 
 
