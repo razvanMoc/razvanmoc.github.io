@@ -357,6 +357,17 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
+.project-role {
+    margin-bottom: 6px;
+    color: #3d5a80;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.project p {
+    margin-bottom: 6px;
+}
+
 
 /* --------------------------------------------------
    CONTACT
