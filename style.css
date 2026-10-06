@@ -438,11 +438,10 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .publication,
-    .project {
-        grid-template-columns: 1fr;
-        gap: 8px;
-    }
+   .project {
+       grid-template-columns: 1fr;
+       gap: 8px;
+   }
 
     .section {
         padding: 65px 0;
