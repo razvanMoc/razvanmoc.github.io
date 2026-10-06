@@ -270,7 +270,8 @@ nav a:hover {
 
 .publication {
     display: block;
-    padding: 16px 0;
+    width: 100%;
+    padding: 20px 0;
     border-top: 1px solid #e2e5e8;
 }
 
