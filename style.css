@@ -260,41 +260,52 @@ nav a:hover {
    PUBLICATIONS
 -------------------------------------------------- */
 
-.publication {
-    display: grid;
-    grid-template-columns: 80px 1fr;
-
-    gap: 25px;
-
-    padding: 30px 0;
-
-    border-top: 1px solid #e4e6e9;
-}
-
 .publication-year {
-    font-size: 0.9rem;
-    color: #7a828b;
-}
-
-.publication h3 {
+    margin-top: 38px;
     margin-bottom: 8px;
-}
-
-.publication p {
-    margin-bottom: 8px;
-}
-
-.publication a,
-.text-link {
+    font-size: 1.15rem;
+    font-weight: 600;
     color: #3d5a80;
+}
+
+.publication {
+    padding: 16px 0;
+    border-top: 1px solid #e2e5e8;
+}
+
+.publication-title {
+    display: block;
+    color: #20242a;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.publication-title:hover {
+    color: #3d5a80;
+}
+
+.publication-meta {
+    margin-top: 5px;
     font-size: 0.9rem;
+    line-height: 1.5;
 }
 
-.text-link {
-    display: inline-block;
-    margin-top: 25px;
+.publication-type {
+    color: #3d5a80;
+    font-weight: 600;
+    margin-right: 8px;
 }
 
+.publication-authors {
+    color: #606870;
+}
+
+.publication-authors strong {
+    color: #20242a;
+    font-weight: 600;
+}
 
 /* --------------------------------------------------
    TEACHING
