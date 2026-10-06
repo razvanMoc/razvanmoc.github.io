@@ -684,8 +684,8 @@
 
             <div class="contact-links">
 
-                <a href="mailto:razvan.mocanu@academic.tuiasi.ro">
-                    Email
+               <a href="#" onclick="copyEmail(); return false;">
+                Email
                 </a>
 
                 <a href="tel:+40762679504">
@@ -721,6 +721,14 @@
         © 2026 Răzvan Mocanu
     </div>
 </footer>
+<script>
+function copyEmail() {
+    const email = "razvan.mocanu@academic.tuiasi.ro";
 
+    navigator.clipboard.writeText(email).then(() => {
+        alert("Email address copied:\n" + email);
+    });
+}
+</script>
 </body>
 </html>
